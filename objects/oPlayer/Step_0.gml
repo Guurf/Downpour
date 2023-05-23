@@ -7,9 +7,10 @@ var _keyGlide = keyboard_check(vk_space);
 hsp = (_keyRight - _keyLeft) * hspWalk;
 
 //Vert Movement
-if (_keyGlide) 
+if (_keyGlide) && (umbStamina > 0)
 {
-	grv = 0.2
+	umbStamina-=0.5;
+	grv = 0.15
 	if (vsp > 0) vsp = 1;
 	if !(instance_exists(oUmbrella)) instance_create_layer(x,y,"Player",oUmbrella);
 }
@@ -19,6 +20,9 @@ else
 	if (instance_exists(oUmbrella)) instance_destroy(oUmbrella);
 }
 vsp = vsp + grv
+if (vsp > 7) vsp = 7;
+else if (vsp < -6) vsp = -6;
+
 
 //Can Jump
 //if (canJump-- > 0) && (_keyJump)
@@ -52,11 +56,13 @@ if (place_meeting(x, y + vsp, oCol))
 }
 y += vsp;
 
+//Drop Bounce
 if instance_exists(oDrop)
 {
 	if (place_meeting(x, bbox_bottom, oDrop))
 	{
 		vsp = -6;
+		umbStamina = maxUmbStamina;
 		var nearestDrop = instance_nearest(x,bbox_bottom,oDrop);
 		instance_destroy(nearestDrop);
 	}
@@ -74,4 +80,10 @@ if (hsp != 0) || (vsp != 0)
 		trailTimer = trailInterval;
 	}
 }
-
+if (vsp > 3 || vsp < -3) sprite_index = sPlayerThin;
+else if (hsp != 0)
+{
+	sprite_index = sPlayerWalk;	
+	image_xscale = sign(hsp);
+}
+else sprite_index = sPlayer;

@@ -14,8 +14,7 @@ if (coinTimer-- <= 0)
 	repeat (coinAmount)
 	{
 		var coinX = irandom_range(175, 465);
-		var coinY = irandom_range(-20, 20);
-		instance_create_layer(coinX,coinY,"Drops",oCoin);
+		instance_create_layer(coinX,0,"Drops",oCoin);
 	}
 	coinTimer = coinInterval;
 }

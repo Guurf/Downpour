@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Downpour",
-    "path": "Downpour.yyp",
+    "name": "Important",
+    "path": "folders/Important.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

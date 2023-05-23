@@ -1,5 +1,5 @@
-dropAmount = 3;
-dropInterval = 80;
+dropAmount = 2;
+dropInterval = 40;
 dropTimer = dropInterval;
 
 coinAmount = 1;

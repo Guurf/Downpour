@@ -1,5 +1,5 @@
 lifetime++;
-if (lifetime > 20)
+if (lifetime > 15)
 {
 scale -= 0.1;
 image_xscale = scale;
