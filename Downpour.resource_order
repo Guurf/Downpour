@@ -11,6 +11,7 @@
   "ResourceOrderSettings": [
     {"name":"oCol","order":1,"path":"objects/oCol/oCol.yy",},
     {"name":"oPlatform","order":2,"path":"objects/oPlatform/oPlatform.yy",},
+    {"name":"fText","order":7,"path":"fonts/fText/fText.yy",},
     {"name":"oUmbrella","order":1,"path":"objects/oUmbrella/oUmbrella.yy",},
     {"name":"snHurt","order":2,"path":"sounds/snHurt/snHurt.yy",},
     {"name":"sBG","order":1,"path":"sprites/sBG/sBG.yy",},
@@ -24,6 +25,7 @@
     {"name":"oPlayer","order":3,"path":"objects/oPlayer/oPlayer.yy",},
     {"name":"snCoinAppear","order":4,"path":"sounds/snCoinAppear/snCoinAppear.yy",},
     {"name":"oCoin","order":3,"path":"objects/oCoin/oCoin.yy",},
+    {"name":"sHearts","order":8,"path":"sprites/sHearts/sHearts.yy",},
     {"name":"oTrail","order":1,"path":"objects/oTrail/oTrail.yy",},
     {"name":"snCoin","order":1,"path":"sounds/snCoin/snCoin.yy",},
     {"name":"sPlayerWalk","order":1,"path":"sprites/sPlayerWalk/sPlayerWalk.yy",},

@@ -5,7 +5,7 @@ var _keyGlide = keyboard_check(vk_space);
 
 //Hori Movement
 hsp = (_keyRight - _keyLeft) * hspWalk;
-
+move_wrap(true, false, sprite_width);
 //Vert Movement
 if (_keyGlide) && (umbStamina > 0)
 {
@@ -21,7 +21,7 @@ else
 }
 vsp = vsp + grv
 if (vsp > 7) vsp = 7;
-else if (vsp < -6) vsp = -6;
+else if (vsp < -10) vsp = -10;
 
 
 //Can Jump
@@ -75,6 +75,14 @@ if instance_exists(oDrop)
 		audio_play_sound(snHurt,2,0);
 	}
 }
+
+if (y > 360)
+{
+	hp--;
+	vsp = -10;
+	audio_play_sound(snHurt,1,0);
+}
+
 //Animation
 if (hsp != 0) || (vsp != 0)
 {
