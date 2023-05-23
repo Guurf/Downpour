@@ -8,3 +8,5 @@ if (speed != 0)
 		trailTimer = trailInterval;
 	}
 }
+
+if (y > 360) instance_destroy();

@@ -59,16 +59,20 @@ y += vsp;
 //Drop Bounce
 if instance_exists(oDrop)
 {
+	var nearestDrop = instance_nearest(x,bbox_bottom,oDrop);
 	if (place_meeting(x, bbox_bottom, oDrop))
 	{
+		audio_play_sound(snJump,1,0);
+		global.points += 2;
 		vsp = -6;
 		umbStamina = maxUmbStamina;
-		var nearestDrop = instance_nearest(x,bbox_bottom,oDrop);
 		instance_destroy(nearestDrop);
 	}
 	else if (place_meeting(x, y-3, oDrop))
 	{
-		game_restart();	
+		instance_destroy(nearestDrop);
+		hp--;
+		audio_play_sound(snHurt,2,0);
 	}
 }
 //Animation

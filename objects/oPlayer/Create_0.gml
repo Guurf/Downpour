@@ -5,6 +5,7 @@ hspWalk = 2.5;
 
 maxUmbStamina = 30;
 umbStamina = maxUmbStamina;
+hp = 3;
 
 //vspJump = -6;
 //canJump = 0;
