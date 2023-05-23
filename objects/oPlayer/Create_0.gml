@@ -12,3 +12,5 @@ hp = 3;
 
 trailTimer = 5;
 trailInterval = trailTimer;
+
+image_speed = 0;

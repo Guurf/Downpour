@@ -62,6 +62,8 @@ if instance_exists(oDrop)
 	var nearestDrop = instance_nearest(x,bbox_bottom,oDrop);
 	if (place_meeting(x, bbox_bottom, oDrop))
 	{
+		image_index = 0;
+		image_speed = 0;
 		audio_play_sound(snJump,1,0);
 		global.points += 2;
 		vsp = -6;
@@ -73,6 +75,7 @@ if instance_exists(oDrop)
 		instance_destroy(nearestDrop);
 		hp--;
 		audio_play_sound(snHurt,2,0);
+		image_speed = 1;
 	}
 }
 
