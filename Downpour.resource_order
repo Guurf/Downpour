@@ -1,0 +1,22 @@
+{
+  "FolderOrderSettings": [
+    {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
+    {"name":"Player","order":11,"path":"folders/Player.yy",},
+    {"name":"Col","order":12,"path":"folders/Col.yy",},
+    {"name":"Drops","order":15,"path":"folders/Drops.yy",},
+    {"name":"Umbrella","order":16,"path":"folders/Umbrella.yy",},
+    {"name":"Trail","order":17,"path":"folders/Trail.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"oCol","order":1,"path":"objects/oCol/oCol.yy",},
+    {"name":"oUmbrella","order":1,"path":"objects/oUmbrella/oUmbrella.yy",},
+    {"name":"sBG","order":13,"path":"sprites/sBG/sBG.yy",},
+    {"name":"oSpawner","order":2,"path":"objects/oSpawner/oSpawner.yy",},
+    {"name":"oGame","order":14,"path":"objects/oGame/oGame.yy",},
+    {"name":"sCoin","order":4,"path":"sprites/sCoin/sCoin.yy",},
+    {"name":"oDrop","order":1,"path":"objects/oDrop/oDrop.yy",},
+    {"name":"oPlayer","order":1,"path":"objects/oPlayer/oPlayer.yy",},
+    {"name":"oCoin","order":3,"path":"objects/oCoin/oCoin.yy",},
+    {"name":"oTrail","order":1,"path":"objects/oTrail/oTrail.yy",},
+  ],
+}
