@@ -10,3 +10,8 @@ draw_set_color(c_white);
 draw_sprite_stretched(sHearts,0,530,30,hrtWidth * (oPlayer.hp / 3),hrtHeight)
 }
 
+if (keyboard_check_pressed(vk_escape))
+{
+	draw_sprite_ext(sPAUSED,0,320,180,3,3,pauseTilt,c_white,1);
+}
+
