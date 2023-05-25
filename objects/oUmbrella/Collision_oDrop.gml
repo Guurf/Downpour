@@ -1,3 +1,3 @@
 instance_destroy(other);
-global.points++;
+global.points+=10;
 audio_play_sound(snPop,1,0);

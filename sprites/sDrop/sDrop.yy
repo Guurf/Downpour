@@ -23,7 +23,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a2312af2-0364-46bf-8e3b-359f36b4de95","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 5,
   "parent": {
     "name": "Drops",
     "path": "folders/Drops.yy",
@@ -59,7 +59,7 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 16,
+    "xorigin": 32,
     "yorigin": 16,
   },
   "swatchColours": null,

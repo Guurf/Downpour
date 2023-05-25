@@ -65,7 +65,7 @@ if instance_exists(oDrop)
 		image_index = 0;
 		image_speed = 0;
 		audio_play_sound(snJump,1,0);
-		global.points += 2;
+		global.points += 20;
 		vsp = -6;
 		umbStamina = maxUmbStamina;
 		instance_destroy(nearestDrop);
@@ -84,7 +84,10 @@ if (y > 360)
 	hp--;
 	vsp = -10;
 	audio_play_sound(snHurt,1,0);
+	image_speed = 1;
 }
+
+if (hp <= 0) game_restart();
 
 //Animation
 if (hsp != 0) || (vsp != 0)
