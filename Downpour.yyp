@@ -49,7 +49,6 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oGlow","path":"objects/oGlow/oGlow.yy",},},
     {"id":{"name":"sDrop","path":"sprites/sDrop/sDrop.yy",},},
-    {"id":{"name":"oPause","path":"objects/oPause/oPause.yy",},},
     {"id":{"name":"sGlow","path":"sprites/sGlow/sGlow.yy",},},
     {"id":{"name":"snCoinAppear","path":"sounds/snCoinAppear/snCoinAppear.yy",},},
     {"id":{"name":"oCoin","path":"objects/oCoin/oCoin.yy",},},

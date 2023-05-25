@@ -1,6 +1,6 @@
 if (global.coinCount > 0)
 {
-	if !instance_exists(oGlow) instance_create_layer(160,32,"VFX",oGlow);
+	if !instance_exists(oGlow) instance_create_layer(0,32,"VFX",oGlow);
 }
 
 //if (global.paused)

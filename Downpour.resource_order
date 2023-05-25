@@ -25,7 +25,6 @@
     {"name":"oCoinWarning","order":6,"path":"objects/oCoinWarning/oCoinWarning.yy",},
     {"name":"oPlayer","order":3,"path":"objects/oPlayer/oPlayer.yy",},
     {"name":"oGlow","order":10,"path":"objects/oGlow/oGlow.yy",},
-    {"name":"oPause","order":2,"path":"objects/oPause/oPause.yy",},
     {"name":"sGlow","order":9,"path":"sprites/sGlow/sGlow.yy",},
     {"name":"snCoinAppear","order":4,"path":"sounds/snCoinAppear/snCoinAppear.yy",},
     {"name":"oCoin","order":3,"path":"objects/oCoin/oCoin.yy",},

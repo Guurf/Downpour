@@ -5,7 +5,6 @@ var _keyGlide = keyboard_check(vk_space);
 
 //Hori Movement
 hsp = (_keyRight - _keyLeft) * hspWalk;
-move_wrap(true, false, sprite_width);
 //Vert Movement
 if (_keyGlide) && (umbStamina > 0)
 {
@@ -78,6 +77,7 @@ if instance_exists(oDrop)
 		image_speed = 1;
 	}
 }
+
 
 if (y > 360)
 {

@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sHearts",
-  "bbox_bottom": 25,
-  "bbox_left": 4,
-  "bbox_right": 25,
+  "bbox_bottom": 23,
+  "bbox_left": 0,
+  "bbox_right": 17,
   "bbox_top": 6,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -15,9 +15,9 @@
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"204a8ce5-c34b-4fc0-9496-0f54ed68039c",},
   ],
-  "gridX": 0,
-  "gridY": 0,
-  "height": 32,
+  "gridX": 6,
+  "gridY": 6,
+  "height": 24,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"90446926-6523-44cf-95aa-fbf2bf88e72a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -93,5 +93,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 32,
+  "width": 24,
 }
